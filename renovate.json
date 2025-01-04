@@ -1,0 +1,22 @@
+{
+  "packageRules": [
+    {
+      "matchSourceUrls": ["https://github.com/faceboob/react"],
+      "groupName": "react monorepo",
+      "matchUpdateTypes": [
+        "digest",
+        "patch",
+        "minor",
+        "major"
+      ]
+    },
+    {
+      "groupName": "react monorepo",
+      "matchPackageNames": [
+        "@types/react",
+        "@types/react-dom",
+        "@types/react-is"
+      ]
+    }
+  ]
+}
