@@ -1,7 +1,7 @@
 {
   "packageRules": [
     {
-      "matchSourceUrls": ["https://github.com/faceboob/react"],
+      "matchSourceUrls": ["https://github.com/facebook/react"],
       "groupName": "react monorepo",
       "matchUpdateTypes": [
         "digest",
